@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #130c0c;
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Brand Styling */
+  .navbar-brand a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Menu Styling */
+  .navbar-menu {
+    display: flex;
+    margin-right: 20%;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .navbar-links li:hover{
+    background-color: blue;
+    padding: 5px;
+  }
+  .cart{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 35%;
+  }
+  .cart p{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .cartIcon{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    
+  }
+  .cartIcon:hover{
+    color: aqua;
+    text-decoration: underline;
+  }
+
+  /* Responsive Design */
+  
+  

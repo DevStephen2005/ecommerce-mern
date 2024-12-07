@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "thumbnail": "/images/iphone5.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 2,
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "thumbnail": "/images/iphonex.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 3,
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "category": "smartphones",
+      "thumbnail": "/images/Samsung.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 4,
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": 280,
+      "thumbnail": "/images/oppo.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 5,
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "thumbnail": "/images/huawei.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 6,
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
+      "thumbnail": "/images/macbook.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 7,
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "thumbnail": "/images/samsungg.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 8,
+      "title": "Apple iPhone Quantum Pro",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "thumbnail": "/images/apple.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 9,
+      "title": "Google Pixel Nova",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "thumbnail": "/images/google.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 10,
+      "title": "Xiaomi Redmi Note 12 Pro",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "thumbnail": "/images/xiomi.jpeg",
+      "quantity" : 1
+    },
+    {
+      "id": 11,
+      "title": "Oppo Find X6 Pro",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "thumbnail": "/images/oppofind.jpeg",
+      "quantity" : 1
+    }
+    
+  ]
+}

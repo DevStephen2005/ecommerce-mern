@@ -1,0 +1,18 @@
+.custom-toast-container {
+    top: 10px; /* Adjusts position slightly */
+}
+
+.custom-toast {
+    background-color: #4CAF50 !important; /* Green background */
+    color: #fff !important; /* White text */
+    border-radius: 4px !important; /* Rounded corners */
+    padding: 12px 16px !important; /* Padding for content */
+    display: flex;
+    align-items: center;
+}
+
+.custom-toast::before {
+    content: '\2714'; /* Checkmark icon */
+    font-size: 20px;
+    margin-right: 10px;
+}

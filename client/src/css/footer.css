@@ -1,0 +1,89 @@
+/* @import "@fortawesome/fontawesome-free/css/all.min.css";  */
+
+
+.footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  margin-top: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-section p {
+  line-height: 1.6;
+  color: #bdbdbd;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #bdbdbd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ffffff;
+}
+
+.social-icons a {
+  color: #bdbdbd;
+  margin-right: 15px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.subscribe-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  flex: 1;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #f44336;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #d32f2f;
+}

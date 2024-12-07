@@ -1,0 +1,145 @@
+.about-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-content h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #ff6f00;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .about-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .about-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  .learn-more-btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #ff8f00;
+  }
+  
+  .about-image {
+    flex: 1;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+    max-width: 500px;
+    height: auto;
+  }
+
+  /* Mobile Responsive */
+@media (max-width: 477px) {
+  .about-section {
+    padding: 20px; /* Reduce padding for smaller screens */
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+  .about-container {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center align for mobile */
+    max-width: 100%; /* Remove the max-width restriction */
+    margin: 0 auto;
+  }
+
+  .about-content {
+    flex: unset; /* Allow full width */
+    padding: 10px; /* Reduce padding */
+    text-align: center; /* Center text for mobile */
+  }
+
+  .about-content h2 {
+    font-size: 24px; /* Decrease font size */
+    margin-bottom: 15px; /* Adjust spacing */
+    color: #333;
+  }
+
+  .about-content h3 {
+    font-size: 18px; /* Decrease subheading font size */
+    margin-top: 20px; /* Adjust margins */
+    margin-bottom: 10px;
+    color: #ff6f00;
+  }
+
+  .about-content p {
+    font-size: 16px; /* Decrease paragraph font size */
+    color: #555;
+    line-height: 1.5; /* Adjust line-height for better readability */
+  }
+
+  .about-content ul {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #555;
+  }
+
+  .about-content ul li {
+    margin-bottom: 5px;
+  }
+
+  .learn-more-btn {
+    margin-top: 15px;
+    padding: 8px 20px; /* Adjust button padding */
+    font-size: 14px; /* Reduce button font size */
+  }
+
+  .about-image {
+    margin-top: 20px; /* Add spacing between image and text */
+    flex: unset; /* Allow image to stack below content */
+    text-align: center; /* Center image */
+  }
+
+  .about-image img {
+    width: 100%; /* Ensure image is full width */
+    max-width: 300px; /* Set a smaller max-width for mobile */
+    height: auto;
+    border-radius: 10px;
+  }
+}

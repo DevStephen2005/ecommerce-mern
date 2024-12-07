@@ -1,0 +1,71 @@
+/* Ensure global styles don't interfere */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main card container */
+.col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Card styling */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.2s ease;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Image styling */
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card body content */
+.card-body {
+  padding: 15px;
+}
+
+/* Title and Price styling */
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-price {
+  color: #ff4757;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+.addCartBtn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.addCartBtn:hover {
+  background-color: #ff6b81;
+}
